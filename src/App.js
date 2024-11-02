@@ -6,6 +6,7 @@ import ResumePage from './pages/ResumePage.jsx';
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import ContactPage from './pages/ContactPage.jsx';
 import { color } from 'framer-motion';
+import Sample from './Sample.js';
 
 function App() {
   return (
@@ -17,14 +18,15 @@ function App() {
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
-      </Router> */}
+      </Router>
       <LandingPage/>
       <div style={{ color: 'black' }}>
         Version 1.0
       </div>
       <div style={{ color: 'white' }}>
         Version 1.0
-      </div>
+      </div> */}
+      <Sample/>
     </>
   );
 }
