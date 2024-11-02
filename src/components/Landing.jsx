@@ -22,7 +22,7 @@ const Landing2 = () => {
                         <div className="scroll-conatiner">
                             <div className="infinte-scroll">
                                 {logos.map((item, index) =>
-                                    <div style={{ marginRight: '20px' }}>
+                                    <div>
                                         <img key={index} src={item.logo} alt={item.name} />
                                         <div style={{ fontSize: '14px'}}>{item.name}</div>
                                     </div>
@@ -30,7 +30,7 @@ const Landing2 = () => {
                             </div>
                             <div className="infinte-scroll">
                                 {logos.map((item, index) =>
-                                    <div style={{ marginRight: '20px' }}>
+                                    <div>
                                         <img key={index} src={item.logo} alt={item.name} />
                                         <div style={{ fontSize: '14px'}}>{item.name}</div>
                                     </div>
