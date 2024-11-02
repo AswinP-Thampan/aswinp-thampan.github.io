@@ -1,6 +1,6 @@
 {
   "homepage": "https://aswinp-thampan.github.io/online-portfolio",
-  "name": "portfolio",
+  "name": "online-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
