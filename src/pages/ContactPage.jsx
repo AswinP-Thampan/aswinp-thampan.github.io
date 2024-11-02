@@ -9,7 +9,9 @@ const ContactPage = () => {
             <div className="App" >
 
                 <Header page='contact' />
-                <Sample />
+                {/* <Sample /> */}
+
+                Yet to add content
             </div>
         </>
     )
