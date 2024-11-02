@@ -12,22 +12,28 @@ const Landing2 = () => {
                         <div className="name">
                             Aswin P<span style={{ color: "red" }}>.</span>
                         </div>
-                        <div style={{ textAlign: "start" }}>Full-Stack Developer</div>
+                        <div>Full-Stack Developer</div>
                     </div>
 
                     <div style={{ width: "350px", display: "flex", flexDirection: "column", gap: "15px" }}>
-                        <div style={{ display: "flex", justifyContent: "end" }}>
+                        <div className="languages">
                             Languages I speak:
                         </div>
                         <div className="scroll-conatiner">
                             <div className="infinte-scroll">
                                 {logos.map((item, index) =>
-                                    <img key={index} src={item.logo} alt={item.name}/>
+                                    <div style={{ marginRight: '20px' }}>
+                                        <img key={index} src={item.logo} alt={item.name} />
+                                        <div style={{ fontSize: '14px'}}>{item.name}</div>
+                                    </div>
                                 )}
                             </div>
                             <div className="infinte-scroll">
                                 {logos.map((item, index) =>
-                                    <img key={index} src={item.logo} alt={item.name}/>
+                                    <div style={{ marginRight: '20px' }}>
+                                        <img key={index} src={item.logo} alt={item.name} />
+                                        <div style={{ fontSize: '14px'}}>{item.name}</div>
+                                    </div>
                                 )}
                             </div>
                         </div>

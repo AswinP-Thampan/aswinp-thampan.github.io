@@ -11,12 +11,17 @@ import MySQL from '../assets/icons/mysql-svgrepo-com.svg'
 import Firebase from '../assets/icons/firebase-svgrepo-com.svg'
 import Figma from '../assets/icons/figma-svgrepo-com.svg'
 import Spring from '../assets/icons/spring-svgrepo-com.svg'
+import TsIcon from '../assets/icons/Typescript_logo_2020.svg'
 
 const logos = [
     {
         //0
         name: 'React.js',
         logo: ReactIcon
+    },
+    {
+        name: 'TypeScript',
+        logo: TsIcon
     },
     {
         //1

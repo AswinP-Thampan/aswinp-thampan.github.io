@@ -27,6 +27,16 @@
     }
 }
 
+.languages {
+    display: flex;
+    justify-content: end;
+
+    @media screen and (max-width: 750px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .about {
     background-color: #ffffff07;
     box-shadow: 10px 10px rgba(255, 255, 255, 0.5);
@@ -40,7 +50,8 @@
     font-family: Sans-new-regular;
 
     @media screen and (max-width: 750px) {
-        font-size: 20px;
+        font-size: 14px;
+        max-width: 70vw;
     }
 }
 
@@ -86,12 +97,12 @@
 
 
 .infinte-scroll {
-    display: inline-block;
+    display: inline-flex;
     animation: scroll 10s linear infinite;
-
+    flex-direction: row;
 }
 
-.infinte-scroll img{
+.infinte-scroll img {
     height: 50px;
     margin: 0px 10px;
 }
