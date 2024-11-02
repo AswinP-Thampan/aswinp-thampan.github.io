@@ -21,8 +21,6 @@ const Navigation = ({page}) => {
         backgroundColor: page == 'contact' ? '#ae0000fd' : '' 
     }
 
-    console.log("page",page)
-
   return (
     <div className='container-tab'>
       <button className='tab' style={homeTabStyles} onClick={()=>navigate('/home')}>Home</button>

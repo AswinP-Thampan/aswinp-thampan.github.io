@@ -1,10 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Logo = () => {
+    const navigate = useNavigate();
+
     return (
         <div style={{ display: 'flex', alignItems: 'baseline', gap: '2px', width: '120px' }}>
-            <div style={{ fontSize: '20px' }}>AP</div>
-            <div className='circle' />
+            <div onClick={()=>navigate('/home')} style={{ fontSize: '20px' , cursor: 'pointer'}}>AP</div>
+            <div onClick={()=>navigate('/home')} className='circle' style={{ cursor: 'pointer'}}/>
         </div>
     )
 }
