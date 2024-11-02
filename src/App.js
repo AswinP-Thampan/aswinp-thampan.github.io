@@ -10,21 +10,7 @@ import { color } from 'framer-motion';
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/home" element={<LandingPage />} />
-          <Route path="/resume" element={<ResumePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </Router>
-      <LandingPage/>
-      <div style={{ color: 'black' }}>
-        Version 1.0
-      </div>
-      <div style={{ color: 'white' }}>
-        Version 1.0
-      </div>
+<LandingPage />
     </>
   );
 }
