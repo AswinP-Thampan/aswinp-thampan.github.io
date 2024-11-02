@@ -1,0 +1,40 @@
+.container-tab{ 
+    display: flex; 
+    gap: 5px; 
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.tab{
+    font-size: 14px;
+    // background-color: rgba(255, 255, 255, 0.15);
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+    color: white;
+    font-family: 'Sans-new-regular';
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    // &:focus {
+    //     background-color: rgba(174, 0, 0, 0.992);
+    //     // color: black;
+    //   }
+
+    //   &:focus :hover {
+    //     background-color: rgba(174, 0, 0, 0.992);
+    // }
+    
+
+    
+    //   // Inactive state (e.g., when button is disabled)
+    //   &: {
+    //     background-color: rgba(255, 255, 255, 0.1);
+    //   }
+}

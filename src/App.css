@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  /* background-color: transparent; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Sans-new-medium';
+  font-size: 26px;
+  /* calc(10px + 2vmin); */
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 450px) {
+  .App {
+    font-size: 14px;
+  }
+}
+
+.bg {
+  background: url(./assets/images/bg2.jpg);
+  background-position: 100%;
+  background-size: cover;
+  opacity: 0.15;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  z-index: 0;
+  /* filter: invert(1); */
+}
+
+.bg-container {
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  background: linear-gradient(45deg, #000000, #191919, #000000);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+@font-face {
+  font-family: 'Sans-new-medium';
+  src: url(./assets/fonts/SFPRODISPLAYMEDIUM.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Sans-new-regular';
+  src: url(./assets/fonts/SFPRODISPLAYREGULAR.OTF) format('opentype');
+}
