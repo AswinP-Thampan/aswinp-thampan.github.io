@@ -19,7 +19,7 @@ const Resume = () => {
                                 <div className='pills'>{paymentPlatformContent.company} : {paymentPlatformContent.team}</div>
                                 <div className='pills'>{paymentPlatformContent.role}</div>
                             </div>
-                            <div style={{ fontSize:'18px' , display:'flex' , gap:'10px' , justifyContent:'center' , marginTop: '10px'}}>
+                            <div style={{ fontSize:'18px' , display:'flex' , gap:'10px' , justifyContent:'center' , marginTop: '10px' ,flexWrap: 'wrap'}}>
                             {paymentPlatformContent.stack.map((item, index) =>
                                 <div className='pills-stack' key={index}><img style={{ height: '15px' , marginRight:'5px'}} src={item.logo} />{item.name}</div>
                             )}
@@ -41,7 +41,7 @@ const Resume = () => {
                                 <div className='pills'>{serverManagementContent.company} : {serverManagementContent.team}</div>
                                 <div className='pills'>{serverManagementContent.role}</div>
                             </div>
-                            <div style={{ fontSize:'18px' , display:'flex' , gap:'10px' , justifyContent:'center' , marginTop: '10px'}}>
+                            <div style={{ fontSize:'18px' , display:'flex' , gap:'10px' , justifyContent:'center' , marginTop: '10px' ,flexWrap: 'wrap'}}>
                             {serverManagementContent.stack.map((item, index) =>
                                 <div className='pills-stack' key={index}><img style={{ height: '15px' , marginRight:'5px'}} src={item.logo} />{item.name}</div>
                             )}

@@ -27,6 +27,20 @@
     }
 }
 
+.role{
+    font-size: 26px ;
+}
+
+.languages-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media screen and (max-width: 750px) {
+        margin-top: 15px;
+    }
+}
+
 .languages {
     display: flex;
     justify-content: end;
@@ -100,7 +114,6 @@
     display: inline-flex;
     animation: scroll 10s linear infinite;
     flex-direction: row;
-    gap: 10px
 }
 
 .infinte-scroll img {

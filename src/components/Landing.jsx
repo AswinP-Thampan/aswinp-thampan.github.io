@@ -10,21 +10,21 @@ const Landing2 = () => {
                 <div className="name-about-conatiner">
                     <div>
                         <div className="name">
-                            Aswin P<span style={{ color: "red" }}>.</span>
+                            ASWIN P<span style={{ color: "red" }}>.</span>
                         </div>
-                        <div>Full-Stack Developer</div>
+                        <div className="role">Full-Stack Developer</div>
                     </div>
 
-                    <div style={{ width: "350px", display: "flex", flexDirection: "column", gap: "15px" }}>
+                    <div className="languages-container">
                         <div className="languages">
-                            Languages I speak:
+                            Tech Stack :
                         </div>
                         <div className="scroll-conatiner">
                             <div className="infinte-scroll">
                                 {logos.map((item, index) =>
                                     <div>
                                         <img key={index} src={item.logo} alt={item.name} />
-                                        <div style={{ fontSize: '14px'}}>{item.name}</div>
+                                        <div style={{ fontSize: '10px'}}>{item.name}</div>
                                     </div>
                                 )}
                             </div>
@@ -32,7 +32,7 @@ const Landing2 = () => {
                                 {logos.map((item, index) =>
                                     <div>
                                         <img key={index} src={item.logo} alt={item.name} />
-                                        <div style={{ fontSize: '14px'}}>{item.name}</div>
+                                        <div style={{ fontSize: '10px'}}>{item.name}</div>
                                     </div>
                                 )}
                             </div>
