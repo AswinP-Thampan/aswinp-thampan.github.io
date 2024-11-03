@@ -5,31 +5,11 @@ import File from "../assets/file/Resume.pdf"
 
 export default function Resume() {
 
-    const handleDownload = () => {
-        // Link to the PDF file stored in the public folder
-        const pdfPath = `../assets/file/Resume.pdf`;
-    
-        // Create a link element
-        const link = document.createElement('a');
-        link.href = pdfPath;
-        link.download = 'sample.pdf'; // Name for the downloaded file
-        link.click();
-      };
-
-
     return (
         <div className='scroll-container' style={{ height: 'calc(100vh - 60px)', overflowY: 'scroll' }}>
             <div>
                 <div className='r-heading'>RESUME</div>
                 <div className='main-div'>
-                <a href={File} target="_blank"
-                    rel="noreferrer">
-                    Open Second PDF
-                </a>
-                <a href={File} download="pavel_cv"> Download My CV </a>
-                        <button onClick={handleDownload} type="button" >Download Resume</button>
-                    {/* </a> */}
-                    {/* <a href={require("")} download="AswinP_Resume">Download full resume</a> */}
                     <div className='sections'>Work Experience</div>
                     {workexp.map((work) =>
                         <WorKExpCards work={work} />
@@ -40,8 +20,13 @@ export default function Resume() {
                             <ProjectCards project={prj} />
                         )}
                     </div>
+                    <a href={File} target="_blank" rel="noreferrer" className='download'>
+                        View Full Résumé ↗
+                    </a>
                 </div>
+                
             </div>
+
         </div>
     )
 }
