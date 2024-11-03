@@ -96,6 +96,11 @@ const bankPrj = {
     stack: [ "JavaScript" , "HTML/CSS" , "PHP" , "phpMyAdmin" , "MySQL"  ]
 }
 
+const workexp = [
+    paymentPlatformContent,
+    serverManagementContent
+]
+
 const projects = [
     tutorPrj,
     tutorPrj,
@@ -103,4 +108,4 @@ const projects = [
     bankPrj
 ]
 
-export { paymentPlatformContent, serverManagementContent, logos, projects};
+export { workexp, logos, projects};
