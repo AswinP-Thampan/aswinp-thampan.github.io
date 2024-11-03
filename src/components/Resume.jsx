@@ -22,7 +22,7 @@ export default function Resume() {
                 <div className='main-div'>
                     <div style={{ marginBottom: '20px' }}>
                         <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
-                            View Full Résumé2 ↗
+                            View Full Résumé ↗
                         </a>
                     </div>
                     <div className='sections'>Work Experience</div>
