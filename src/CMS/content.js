@@ -12,87 +12,36 @@ import Firebase from '../assets/icons/firebase-svgrepo-com.svg'
 import Figma from '../assets/icons/figma-svgrepo-com.svg'
 import Spring from '../assets/icons/spring-svgrepo-com.svg'
 import TsIcon from '../assets/icons/Typescript_logo_2020.svg'
+import jQuery from '../assets/icons/jquery-svgrepo-com.svg'
 
 const logos = [
-    {
-        //0
-        name: 'React.js',
-        logo: ReactIcon
-    },
-    {
-        name: 'TypeScript',
-        logo: TsIcon
-    },
-    {
-        //1
-        name: 'Git',
-        logo: Git
-    },
-    {
-        //2
-        name: 'Java',
-        logo: Java
-    },
-    {
-        //3
-        name: 'Node.js',
-        logo: Node
-    },
-    {
-        //4
-        name: 'Javascript',
-        logo: JS
-    },
-    {
-        //5
-        name: 'HTML/CSS',
-        logo: HTML
-    },
-    {
-        //6
-        name: 'CSS',
-        logo: CSS
-    },
-    {
-        //7
-        name: 'Redux',
-        logo: Redux
-    },
-    {
-        //8
-        name: 'Storybook',
-        logo: Storybook
-    },
-    {
-        //9
-        name: 'MySQL',
-        logo: MySQL
-    },
-    {
-        //10
-        name: 'Firebase',
-        logo: Firebase
-    },
-    {
-        //11
-        name: 'Figma',
-        logo: Figma
-    },
-    {
-        name: 'Spring Boot',
-        logo: Spring
-    }
+    /* 0 */ { name: 'React.js', logo: ReactIcon }, 
+    /* 1 */ { name: 'Git', logo: Git },
+    /* 2 */ { name: 'Java', logo: Java },
+    /* 3 */ { name: 'Node.js', logo: Node },
+    /* 4 */ { name: 'Javascript', logo: JS },
+    /* 5 */ { name: 'HTML/CSS', logo: HTML },
+    /* 6 */ { name: 'CSS', logo: CSS },
+    /* 7 */ { name: 'Redux', logo: Redux },
+    /* 8 */ { name: 'Storybook', logo: Storybook },
+    /* 9 */ { name: 'MySQL', logo: MySQL },
+    /* 10 */ { name: 'Firebase', logo: Firebase },
+    /* 11 */ { name: 'Figma', logo: Figma },
+    /* 12 */ { name: 'Spring Boot', logo: Spring },
+    /* 13 */ { name: 'TypeScript', logo: TsIcon },
+    /* 14 */ { name: 'jQuery', logo: jQuery }
 ]
 
 const paymentPlatformContent = {
     name: 'Payment Portal for Merchant',
-    startDate: 'April 2023',
-    endDate: 'September 2024',
-    company: 'Comviva Technologies Ltd',
+    startDate: 'APR 2023',
+    endDate: 'SEP 2024',
+    company: 'Comviva',
     role: 'Product Development Engineer',
-    team: 'CVS Team',
+    team: 'CVS Dept.',
     stack: [
         logos[0],
+        logos[13],
         logos[7],
         logos[5],
         logos[4],
@@ -100,32 +49,19 @@ const paymentPlatformContent = {
         logos[9],
         logos[11],
         logos[8],
-        logos[10]
+        logos[10],
     ],
-    content: [
-        "Digital payment platform was developed to use across apps, tablets, and websites, enabling bank and wallet transactions, bill payments, and mobile recharges.",
-        "Component design, testing and desk check were made using wireframes and visualized using Storybook.",
-        "Depending on the requirement, UI flow for different regions was understood and implemented for better UX.",
-        "To have better state management and reduce component drilling in ReactJS, Redux Toolkit was used.",
-        "Worked as the SPOC and liaison between the backend team of a partner company (Ericsson), the frontend and backend of Comviva, and the client (MTN).",
-        "Proactive analysis was made to ensure the UI flow of Figma wireframes wasn’t affected due to missing or corrupted design tokens.",
-        "Dynamic creation of the component from the wireframe with the right token was ensured for extended reusability.",
-        "Deliverables for each task comprising different flows were completed on time and passed on for Minimum Viable Product (MVP) Testing and User Acceptance Testing (UAT).",
-        "Upon change requests and scope enhancements, existing tokens were diligently reused to avoid deadline extensions.",
-        "During sprint retrospection, attempted to minimize sprint restructuring and revamping of project timeline.",
-        "To enhance security for the payment portal, multiple sessions were blocked, and proper route guards were implemented.",
-        "Implemented code structuring and centralization practices for enhanced project organization.",
-        "Successfully led a team of 35+ members, headed scrum calls, fostering collaboration and achieving project objectives."
-    ]
+    location: "Bangalore",
+    content: "Developed a secure multi-platform payment platform, enabling transactions and bill payments. Enhanced UX with Redux, Storybook, and responsive design. Led 35+ team as SPOC, resolving design issues, optimizing components, and securing portals. Recognized with 2 ACE cards for commitments and efforts in the project."
 };
 
 const serverManagementContent = {
     name: 'Server Management Portal',
     startDate: 'June 2022',
     endDate: 'April 2023',
-    company: 'Comviva Technologies Ltd',
+    company: 'Comviva',
     role: 'Product Development Engineer',
-    team: 'MBS Team',
+    team: 'MBS Dept.',
     stack: [
         logos[0],
         logos[1],
@@ -135,15 +71,36 @@ const serverManagementContent = {
         logos[7],
         logos[12],
     ],
-    content: [
-        "For orchestration and identification of bottlenecks, a server management portal was implemented where the telemetry and health of the server could be visualized.",
-        "Facilitating and modifying the state of the server could be done using the centralized server state management portal.",
-        "For server resource management and flexibility, the ability to change server configuration dynamically was implemented.",
-        "Designed webpages with refined filtration for displaying server status and modes, making it easier to access the required configuration in the pool.",
-        "Reverse engineered components and wireframes from the existing Server Management Portal written in extension JS.",
-        "Using the derived design elements, we constructed structured server configurations in ReactJS to integrate with project objectives and enhance efficiency.",
-        "Spring Boot services were used to develop microservices, ensuring seamless front-end and back-end integration."
-    ]
+    location: "Gurgaon",
+    content: "Built a server management portal for orchestration, telemetry visualization, and bottleneck ID. Enabled dynamic server configuration and centralized state management. Designed filtered server stats pages and reverse-engineered components for enhanced reusability."
 };
 
-export {paymentPlatformContent , serverManagementContent , logos} ;
+const airportPrj = {
+    name: "Airport Management System Website",
+    date: "AUG 2021",
+    content: "Created a website using JavaScript & MongoDB for communication among internal airport staff. Provided CRUD features in MongoDB, including checking delays, seat availability, seat booking, upgrades.", 
+    stack: [ "MongoDB", "JavaScript" , "jQuery" , "HTML/CSS" ]
+}
+
+const tutorPrj = {
+    name: "Freelancing Website for Tutors",
+    date: "DEC 2021",
+    content: "Built a website to address the growing demand for online learning platforms, facilitating connections between alumni and students while enhancing students' industry insights and learning opportunities. Implemented user registration for both tutors and students & facilitated students in scheduling live classes with tutors, with slot selection and initial payment features.", 
+    stack: [ "React.js" , "JavaScript" , "HTML/CSS" , "jQuery" , "MySQL"  ]
+}
+
+const bankPrj = {
+    name: "Banking Flow",
+    date: "AUG 2020",
+    content: "Designed a website to demonstrate banking processes, with a strong emphasis on user-friendly design for transactions such as deposits and withdrawals. Enabled users to view their transaction history in real time, complete with status details, by developing a connection to the database that reflects changes as transactions occur.", 
+    stack: [ "JavaScript" , "HTML/CSS" , "PHP" , "phpMyAdmin" , "MySQL"  ]
+}
+
+const projects = [
+    tutorPrj,
+    tutorPrj,
+    airportPrj,
+    bankPrj
+]
+
+export { paymentPlatformContent, serverManagementContent, logos, projects};
