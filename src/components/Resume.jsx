@@ -36,7 +36,7 @@ export default function Resume() {
                         )}
                     </div>
                     <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
-                            View Full Résumé2 ↗
+                            View Full Résumé ↗
                         </a>
                 </div>
 
