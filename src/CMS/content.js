@@ -46,12 +46,12 @@ const paymentPlatformContent = {
         logos[5],
         logos[4],
         logos[3],
+        {name: "Express.js"},
         logos[9],
-        logos[11],
         logos[8],
-        logos[10],
+        logos[10]
     ],
-    location: "Bangalore",
+    location: "Bangalore, IN",
     content: "Developed a secure multi-platform payment platform, enabling transactions and bill payments. Enhanced UX with Redux, Storybook, and responsive design. Led 35+ team as SPOC, resolving design issues, optimizing components, and securing portals. Recognized with 2 ACE cards for commitments and efforts in the project."
 };
 
@@ -71,7 +71,7 @@ const serverManagementContent = {
         logos[7],
         logos[12],
     ],
-    location: "Gurgaon",
+    location: "Gurgaon, IN",
     content: "Built a server management portal for orchestration, telemetry visualization, and bottleneck ID. Enabled dynamic server configuration and centralized state management. Designed filtered server stats pages and reverse-engineered components for enhanced reusability."
 };
 
@@ -102,7 +102,7 @@ const workexp = [
 ]
 
 const projects = [
-    tutorPrj,
+    // tutorPrj,
     tutorPrj,
     airportPrj,
     bankPrj

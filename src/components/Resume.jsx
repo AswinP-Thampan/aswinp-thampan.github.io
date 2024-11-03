@@ -9,11 +9,11 @@ export default function Resume() {
                 <div className='r-heading'>RESUME</div>
                 <div className='main-div'>
                     <div className='sections'>Work Experience</div>
-                        {workexp.map((work) =>
-                            <WorKExpCards work={work} />
-                        )}
+                    {workexp.map((work) =>
+                        <WorKExpCards work={work} />
+                    )}
                     <div style={{ display: 'flex', gap: '20px', flexDirection: 'column', paddingTop: '50px' }}>
-                    <div className='sections'>Projects</div> 
+                        <div className='sections'>Projects</div>
                         {projects.map((prj, index) =>
                             <ProjectCards project={prj} />
                         )}
@@ -30,7 +30,7 @@ const ProjectCards = ({ project }) => {
     return (
         <div className="cards">
             <div>
-                <div style={{ display: 'flex', fontSize: '14px' , color: "#8c8c8c" }}>{project.date} </div>
+                <div style={{ display: 'flex', fontSize: '14px', color: "#8c8c8c" }}>{project.date} </div>
                 <div style={{ display: 'flex', fontSize: '20px' }}>{project.name}</div>
                 <hr style={{ marginLeft: "0px", opacity: '0.5' }} />
             </div>
@@ -50,9 +50,9 @@ const WorKExpCards = ({ work }) => {
     return (
         <div className="cards">
             <div>
-                <div style={{ display: 'flex', fontSize: '14px' , color: "#8c8c8c"  }}>{work.startDate} - {work.endDate} </div>
+                <div style={{ display: 'flex', fontSize: '14px', color: "#8c8c8c" }}>{work.startDate} - {work.endDate} </div>
                 <div style={{ display: 'flex', fontSize: '20px' }}>{work.role} · {work.company} ({work.team})</div>
-                <div style={{ display: 'flex', fontSize: '18px' , color: "#8c8c8c" }}>{work.location} </div>
+                <div style={{ display: 'flex', fontSize: '18px', color: "#8c8c8c" }}>{work.location} </div>
                 <hr style={{ marginLeft: "0px", opacity: '0.5' }} />
             </div>
             <div className='cards-font'>{work.content}</div>
