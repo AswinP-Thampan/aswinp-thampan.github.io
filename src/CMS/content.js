@@ -90,7 +90,7 @@ const tutorPrj = {
 }
 
 const bankPrj = {
-    name: "Banking Flow",
+    name: "Banking System Flow Website",
     date: "AUG 2020",
     content: "Designed a website to demonstrate banking processes, with a strong emphasis on user-friendly design for transactions such as deposits and withdrawals. Enabled users to view their transaction history in real time, complete with status details, by developing a connection to the database that reflects changes as transactions occur.", 
     stack: [ "JavaScript" , "HTML/CSS" , "PHP" , "phpMyAdmin" , "MySQL"  ]
@@ -108,4 +108,4 @@ const projects = [
     bankPrj
 ]
 
-export { workexp, logos, projects};
+export { workexp, logos, projects };

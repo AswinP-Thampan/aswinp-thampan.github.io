@@ -6,13 +6,14 @@ export default function Resume() {
     return (
         <div className='scroll-container' style={{ height: 'calc(100vh - 60px)', overflowY: 'scroll' }}>
             <div>
-                <div><h2>RESUME</h2></div>
+                <div className='r-heading'>RESUME</div>
                 <div className='main-div'>
-                    <div>Work Experience</div>
+                    <div className='sections'>Work Experience</div>
                         {workexp.map((work) =>
                             <WorKExpCards work={work} />
                         )}
-                    <div style={{ display: 'flex', gap: '20px', flexDirection: 'column', padding: '0px' }}> Projects
+                    <div style={{ display: 'flex', gap: '20px', flexDirection: 'column', padding: '0px' }}>
+                    <div className='sections'>Projects</div> 
                         {projects.map((prj, index) =>
                             <ProjectCards project={prj} />
                         )}
