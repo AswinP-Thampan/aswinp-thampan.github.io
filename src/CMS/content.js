@@ -57,8 +57,8 @@ const paymentPlatformContent = {
 
 const serverManagementContent = {
     name: 'Server Management Portal',
-    startDate: 'June 2022',
-    endDate: 'April 2023',
+    startDate: 'JUN 2022',
+    endDate: 'APR 2023',
     company: 'Comviva',
     role: 'Product Development Engineer',
     team: 'MBS Dept.',

@@ -12,7 +12,7 @@ export default function Resume() {
                         {workexp.map((work) =>
                             <WorKExpCards work={work} />
                         )}
-                    <div style={{ display: 'flex', gap: '20px', flexDirection: 'column', padding: '0px' }}>
+                    <div style={{ display: 'flex', gap: '20px', flexDirection: 'column', paddingTop: '50px' }}>
                     <div className='sections'>Projects</div> 
                         {projects.map((prj, index) =>
                             <ProjectCards project={prj} />
