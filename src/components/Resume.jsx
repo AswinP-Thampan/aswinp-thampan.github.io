@@ -10,6 +10,11 @@ export default function Resume() {
             <div>
                 <div className='r-heading'>RESUME</div>
                 <div className='main-div'>
+                    <div style={{ marginBottom: '20px'}}>
+                    <a href={File} target="_blank" rel="noreferrer" className='download'>
+                        View Full Résumé ↗
+                    </a>
+                    </div>
                     <div className='sections'>Work Experience</div>
                     {workexp.map((work) =>
                         <WorKExpCards work={work} />
