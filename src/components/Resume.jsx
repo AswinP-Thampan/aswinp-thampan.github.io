@@ -5,15 +5,25 @@ import File from "../assets/file/Resume.pdf"
 
 export default function Resume() {
 
+    const downloadResume = (e) => {
+        e.preventDefault();
+        const link = document.createElement('a');
+        link.href = File;
+        link.download = 'AswinP_Resume.pdf'; // Set your custom file name here
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
     return (
         <div className='scroll-container' style={{ height: 'calc(100vh - 60px)', overflowY: 'scroll' }}>
             <div>
                 <div className='r-heading'>RESUME</div>
                 <div className='main-div'>
-                    <div style={{ marginBottom: '20px'}}>
-                    <a href={File} target="_blank" rel="noreferrer" className='download'>
-                        View Full Résumé ↗
-                    </a>
+                    <div style={{ marginBottom: '20px' }}>
+                        <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
+                            View Full Résumé2 ↗
+                        </a>
                     </div>
                     <div className='sections'>Work Experience</div>
                     {workexp.map((work) =>
@@ -25,11 +35,11 @@ export default function Resume() {
                             <ProjectCards project={prj} />
                         )}
                     </div>
-                    <a href={File} target="_blank" rel="noreferrer" className='download'>
-                        View Full Résumé ↗
-                    </a>
+                    <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
+                            View Full Résumé2 ↗
+                        </a>
                 </div>
-                
+
             </div>
 
         </div>
