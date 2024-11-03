@@ -49,10 +49,11 @@ const paymentPlatformContent = {
         {name: "Express.js"},
         logos[9],
         logos[8],
-        logos[10]
+        logos[10],
+        logos[1]
     ],
     location: "Bangalore, IN",
-    content: "Developed a secure multi-platform payment platform, enabling transactions and bill payments. Enhanced UX with Redux, Storybook, and responsive design. Led 35+ team as SPOC, resolving design issues, optimizing components, and securing portals. Recognized with 2 ACE cards for commitments and efforts in the project."
+    content: "Developed a digital payment platform across apps, tablets, and websites, enabling bank and wallet transactions, bill payments, and mobile recharges. Led 35+ team as SPOC, assigning tasks, resolving design issues, optimizing components, and securing portals. Recognized with 2 ACE cards for commitments and efforts in the project."
 };
 
 const serverManagementContent = {
@@ -64,15 +65,15 @@ const serverManagementContent = {
     team: 'MBS Dept.',
     stack: [
         logos[0],
-        logos[1],
-        logos[2],
+        logos[7],
         logos[4],
         logos[5],
-        logos[7],
+        logos[2],
         logos[12],
+        logos[1],
     ],
     location: "Gurgaon, IN",
-    content: "Built a server management portal for orchestration, telemetry visualization, and bottleneck ID. Enabled dynamic server configuration and centralized state management. Designed filtered server stats pages and reverse-engineered components for enhanced reusability."
+    content: "Created a server management portal, for the orchestration and identification of bottlenecks, enabling visualization of server telemetry and health. Enabled dynamic changes to server configuration for improved resource management and flexibility. Designed filtered server stats pages and reverse-engineered components for enhanced reusability."
 };
 
 const airportPrj = {
