@@ -7,16 +7,19 @@ export default function Contact() {
     return (
         <div className='contact-container'>
             <a href='mailto:aswinp.thampan@gmail.com' >
-                <div className="contact-cards">Gmail ↗</div></a>
+                <div className="contact-cards">Gmail ↗</div>
+            </a>
             <a href='https://www.linkedin.com/in/aswinp-thampan' >
-                <div className="contact-cards">Linkedin ↗</div></a>
+                <div className="contact-cards">Linkedin ↗</div>
+            </a>
 
             <a href='https://github.com/AswinP-Thampan' >
-                <div className="contact-cards">Github ↗</div></a>
+                <div className="contact-cards">Github ↗</div>
+            </a>
             <div
                 className={"contact-cards"}
                 onMouseEnter={() => setShowNo(true)}
-                onClick={() => window.location.href = "tel:+1231231233213"}
+                onClick={() => window.location.href = "tel:+91 7022755291"}
                 onMouseLeave={() => setShowNo(false)}
             >
                 {!showNo ? "Phone ↗" : "+91 7022755291"}
