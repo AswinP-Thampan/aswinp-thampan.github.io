@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Sample from '../components/Sample'
+import Contact from '../components/Contact'
 
 const ContactPage = () => {
     return (
@@ -11,7 +12,7 @@ const ContactPage = () => {
                 <Header page='contact' />
                 {/* <Sample /> */}
 
-                Yet to add content
+                <Contact />
             </div>
         </>
     )

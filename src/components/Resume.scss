@@ -30,6 +30,7 @@
     padding: 7px 10px;
     border-radius: 10px;
     font-size: 14px;
+    transition: background-color 0.5s;
 
     &:hover{
         background-color:rgba(175, 0, 0, 0.567);
