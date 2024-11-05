@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.scss';
-import LinkedIn from '../assets/icons/icons8-linkedin.svg'
-import Github from '../assets/icons/github-mark-white.svg'
+import LinkedIn from '../assets/icons/react-black.svg'
+import Github from '../assets/icons/sass-black.svg'
 import Mail from '../assets/icons/email-7603.svg'
 import Navigation from './Navigation';
 import Logo from './Logo';
@@ -14,9 +14,9 @@ const Header = ({ page }) => {
                 <Logo />
                 {/* <div><Navigation page={page} /></div> */}
                 <div className='header-contact'>
-                    <a href='mailto:aswinp.thampan@gmail.com' ><img className="icon" src={Mail} alt='Mail' /></a>
-                    <a href='https://www.linkedin.com/in/aswinp-thampan' ><img className="icon" src={LinkedIn} alt='LinkedIn' /></a>
-                    <a href='https://github.com/AswinP-Thampan' ><img className="icon" src={Github} alt='Github' /></a>
+                    <div style={{ fontSize: '12px'}}>Made with:</div>
+                    <a href='https://react.dev/' ><img className="icon" src={LinkedIn} alt='React' /></a>
+                    <a href='https://sass-lang.com/' ><img className="icon" src={Github} alt='Scss' /></a>
                     {/* <Navigation page={page} /> */}
                 </div>
 

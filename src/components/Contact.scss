@@ -40,13 +40,13 @@ a {
 
     background-color: #ffffff07;
     color: #ffffffc7;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     box-sizing: border-box;
 
     min-width: 200px;
     max-width: 500px;
-    min-height: 100px;
+    min-height: 70px;
     cursor: pointer;
 
     font-family: Sans-new-regular;
@@ -58,7 +58,6 @@ a {
         background-color: #ffffff17;
         align-items: center;
         min-width: 250px;
-
     }
 
     @media screen and (max-width: 850px) {

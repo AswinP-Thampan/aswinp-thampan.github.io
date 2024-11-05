@@ -20,8 +20,8 @@ export default function Resume() {
             <div>
                 <div className='r-heading'>RESUME</div>
                 <div className='resume-intro'>
-                <div style={{ width: '70%'}}>
-                    <p>I am a passionate Full Stack Developer with experience in building dynamic and responsive web applications.</p>
+                <div style={{ width: '70%' , maxWidth: '1050px'}}>
+                    <p>I am a Full Stack Developer with experience in building dynamic and responsive web applications.</p>
                     <p>Here you'll find a concise overview of my professional journey, and  notable projects. I believe in continuous learning and collaboration, and I'm always open to new opportunities that challenge me and allow me to grow. </p>
                     <div className='resume-button'>
                         <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
@@ -38,7 +38,7 @@ export default function Resume() {
                     )}
                     <div style={{ display: 'flex', gap: '20px', flexDirection: 'column', paddingTop: '50px' }}>
                         <div className='sections'>Projects</div>
-                        {projects.map((prj, index) =>
+                        {projects.map((prj) =>
                             <ProjectCards project={prj} />
                         )}
                     </div>
