@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-// import Sample from './components/Sample';
 import LandingPage from './pages/LandingPage';
 import ResumePage from './pages/ResumePage';
 import { HashRouter  as Router, Route, Routes } from "react-router-dom";

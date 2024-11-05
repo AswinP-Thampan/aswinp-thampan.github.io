@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../components/Header'
-import Sample from '../components/Sample'
 import Contact from '../components/Contact'
 
 const ContactPage = () => {
@@ -8,11 +7,8 @@ const ContactPage = () => {
         <>
             <div className='bg-container'><div className='bg' /></div>
             <div className="App" >
-
-                <Header page='contact' />
-                {/* <Sample /> */}
-
-                <Contact />
+                <div className='header-wrapper'><Header page='landing' /></div>
+                <div style={{ overflow: 'hidden' , width: '100%'}}><Contact /></div>
             </div>
         </>
     )
