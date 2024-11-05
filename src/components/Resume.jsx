@@ -19,12 +19,19 @@ export default function Resume() {
         <div style={{ height: 'calc(100vh - 60px)', overflowY: 'scroll' }}>
             <div>
                 <div className='r-heading'>RESUME</div>
-                <div className='main-div'>
-                    <div style={{ marginBottom: '20px' }}>
+                <div className='resume-intro'>
+                <div style={{ width: '70%'}}>
+                    <p>I am a passionate Full Stack Developer with experience in building dynamic and responsive web applications.</p>
+                    <p>Here you'll find a concise overview of my professional journey, and  notable projects. I believe in continuous learning and collaboration, and I'm always open to new opportunities that challenge me and allow me to grow. </p>
+                    <div className='resume-button'>
                         <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
                             View Full Résumé ↗
                         </a>
                     </div>
+                </div>
+                </div>
+                <div className='main-div'>
+
                     <div className='sections'>Work Experience</div>
                     {workexp.map((work) =>
                         <WorKExpCards work={work} />
@@ -36,8 +43,8 @@ export default function Resume() {
                         )}
                     </div>
                     <a href={File} target="_blank" rel="noreferrer" className='download' onClick={(e) => { downloadResume(e) }} >
-                            View Full Résumé ↗
-                        </a>
+                        View Full Résumé ↗
+                    </a>
                 </div>
 
             </div>

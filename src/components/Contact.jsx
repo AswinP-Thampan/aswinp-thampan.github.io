@@ -25,7 +25,7 @@ export default function Contact() {
                 <div className='c-heading'>
                     CONTACT INFORMATION
                 </div>
-                <div style={{ fontFamily: 'Sans-new-regular', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '50px' }}>
+                <div className='contact-intro'>
                     <div style={{ width: '70%' }}>
                         <p>Let's bring ideas to life!</p>
                         <p>If you're looking for a developer who's passionate about crafting seamless user experiences and building efficient, scalable applications, you're in the right place. I'm always open to new opportunities, collaborations, or hearing about innovative projects. Feel free to reach out if you think we'd make a great team!</p>
