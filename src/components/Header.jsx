@@ -1,8 +1,7 @@
 import React from 'react'
 import './Header.scss';
-import LinkedIn from '../assets/icons/react-black.svg'
-import Github from '../assets/icons/sass-black.svg'
-import Mail from '../assets/icons/email-7603.svg'
+import ReactIcon from '../assets/icons/react-black.svg'
+import Scss from '../assets/icons/sass-black.svg'
 import Navigation from './Navigation';
 import Logo from './Logo';
 
@@ -12,12 +11,10 @@ const Header = ({ page }) => {
         <>
             <div className='header'>
                 <Logo />
-                {/* <div><Navigation page={page} /></div> */}
                 <div className='header-contact'>
                     <div style={{ fontSize: '12px'}}>Made with:</div>
-                    <a href='https://react.dev/' ><img className="icon" src={LinkedIn} alt='React' /></a>
-                    <a href='https://sass-lang.com/' ><img className="icon" src={Github} alt='Scss' /></a>
-                    {/* <Navigation page={page} /> */}
+                    <a href='https://react.dev/' ><img className="icon" src={ReactIcon} alt='React' /></a>
+                    <a href='https://sass-lang.com/' ><img className="icon" src={Scss} alt='Scss' /></a>
                 </div>
 
             </div>

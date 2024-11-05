@@ -20,7 +20,7 @@ const logos = [
     /* 2 */ { name: 'Java', logo: Java },
     /* 3 */ { name: 'Node.js', logo: Node },
     /* 4 */ { name: 'Javascript', logo: JS },
-    /* 5 */ { name: 'HTML/CSS', logo: HTML },
+    /* 5 */ { name: 'HTML', logo: HTML },
     /* 6 */ { name: 'CSS', logo: CSS },
     /* 7 */ { name: 'Redux', logo: Redux },
     /* 8 */ { name: 'Storybook', logo: Storybook },
