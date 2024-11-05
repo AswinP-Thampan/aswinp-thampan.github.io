@@ -43,12 +43,9 @@ const paymentPlatformContent = {
         logos[0],
         logos[13],
         logos[7],
-        // logos[5],
         logos[4],
         logos[3],
         {name: "Express"},
-        // logos[8],
-        // logos[10],
         logos[1]
     ],
     location: "Bangalore, IN",
