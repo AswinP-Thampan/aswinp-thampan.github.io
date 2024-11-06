@@ -75,7 +75,7 @@ const serverManagementContent = {
 const airportPrj = {
     name: "Airport Management System Website",
     date: "AUG 2021",
-    content: "Created a website using JavaScript & MongoDB for communication among internal airport staff. Provided CRUD features in MongoDB, including checking delays, seat availability, seat booking, upgrades.", 
+    content: "Created a website for internal airport communication, allowing real-time updates on delays, emergencies, and system statuses. Provided admin capabilities for managing flight statuses, seat bookings, and service modifications like upgrades and meal preferences.", 
     stack: [ "MongoDB", "JavaScript" , "jQuery" , "HTML/CSS" ]
 }
 
