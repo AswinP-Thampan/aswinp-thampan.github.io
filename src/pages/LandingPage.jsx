@@ -15,7 +15,7 @@ const LandingPage = () => {
       <div className="App" >
 
         <div className='header-wrapper'><Header page='landing' /></div>
-        <div style={{ width: '100%', height: 'calc(100vh - 60px)' , overflow: 'hidden' }}><Landing2 /></div>
+        <div style={{ width: '100%', height: 'calc(100vh - 125px)' , overflow: 'hidden' }}><Landing2 /></div>
 
       </div>
     </>

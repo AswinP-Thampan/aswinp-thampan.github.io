@@ -14,7 +14,7 @@ const ResumePage = () => {
             <div className="App" >
 
                 <div className='header-wrapper'><Header page='resume' /></div>
-                <div style={{ overflow: 'hidden' , width: '100%'}}><Resume /></div>
+                <div style={{ overflow: 'hidden' , width: '100%' , height: 'calc(100vh - 125px)' , overflowY: 'scroll'}}><Resume /></div>
             </div>
         </>
     )

@@ -16,7 +16,7 @@ export default function Resume() {
     }
 
     return (
-        <div style={{ height: 'calc(100vh - 60px)', overflowY: 'scroll' }}>
+        <div style={{ overflowY: 'scroll' }}>
             <div>
                 <div className='r-heading'>RESUME</div>
                 <div className='resume-intro'>
