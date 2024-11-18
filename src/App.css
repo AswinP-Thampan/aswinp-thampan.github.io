@@ -5,12 +5,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-family: 'Sans-new-medium';
   font-size: 26px;
   /* calc(10px + 2vmin); */
   color: rgb(255, 255, 255);
   position: relative;
+  top: 60px;
   z-index: 2;
 }
 
@@ -79,4 +80,8 @@
   url("https://db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.woff")format("woff"),
   url("https://db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.svg#Cera CY Regular")format("svg");
+}
+
+body{
+  overflow: hidden;
 }
