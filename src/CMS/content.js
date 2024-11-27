@@ -80,7 +80,7 @@ const airportPrj = {
 }
 
 const tutorPrj = {
-    name: "Tutorly (Interactive Learning Hub):",
+    name: "Tutorly (Interactive Learning Hub)",
     date: "DEC 2021",
     content: "­­Developed a dynamic web platform to cater to the growing demand for online learning by connecting alumni and students. The website aimed to enhance students' industry insights and learning opportunities.	Implemented user registration features for both tutors and students, ensuring a personalized experience. ", 
     stack: [ "React.js" , "JavaScript" , "HTML/CSS" , "jQuery" , "MySQL"  ]
@@ -94,10 +94,11 @@ const bankPrj = {
 }
 
 const eaF1Prj = {
-    name: "eaf1 (Everything About F1)",
+    name: "eaf1 (Everything About F1) ↗",
     date: "OCT 2024",
     content: "An interactive F1 car exploration website designed to provide an in-depth look at F1 car parts, their specifications, and the rich history of the sport. Users can explore detailed descriptions of car components, view specifications of various F1 cars, and delve into the Hall of Fame to learn about iconic drivers and historic achievements.", 
-    stack: [ "Next.js" , "Tailwind" , "Vercel"  ]
+    stack: [ "Next.js" , "Tailwind" , "Vercel"  ],
+    src: 'https://eaf1.vercel.app/'
 }
 
 const workexp = [

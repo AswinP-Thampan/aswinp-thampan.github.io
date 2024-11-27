@@ -60,7 +60,12 @@ const ProjectCards = ({ project }) => {
         <div className="cards">
             <div>
                 <div style={{ display: 'flex', fontSize: '14px', color: "#8c8c8c" }}>{project.date} </div>
-                <div style={{ display: 'flex', fontSize: '20px' }}>{project.name}</div>
+                {project?.src &&
+                    <a href={project.src} ><div style={{ display: 'flex', fontSize: '20px' }}>{project.name}</div></a>
+}
+                {!project?.src &&
+                    <div style={{ display: 'flex', fontSize: '20px' }}>{project.name}</div>
+                }
                 <hr style={{ marginLeft: "0px", opacity: '0.5' }} />
             </div>
             <div className='cards-font'>{project.content}</div>
