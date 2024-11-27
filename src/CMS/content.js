@@ -73,24 +73,31 @@ const serverManagementContent = {
 };
 
 const airportPrj = {
-    name: "Airport Management System Website",
+    name: "Airport Internal Management System",
     date: "AUG 2021",
     content: "Created a website for internal airport communication, allowing real-time updates on delays, emergencies, and system statuses. Provided admin capabilities for managing flight statuses, seat bookings, and service modifications like upgrades and meal preferences.", 
     stack: [ "MongoDB", "JavaScript" , "jQuery" , "HTML/CSS" ]
 }
 
 const tutorPrj = {
-    name: "Freelancing Website for Tutors",
+    name: "Tutorly (Interactive Learning Hub):",
     date: "DEC 2021",
-    content: "Built a website to address the growing demand for online learning platforms, facilitating connections between alumni and students while enhancing students' industry insights and learning opportunities. Implemented user registration for both tutors and students & facilitated students in scheduling live classes with tutors, with slot selection and initial payment features.", 
+    content: "­­Developed a dynamic web platform to cater to the growing demand for online learning by connecting alumni and students. The website aimed to enhance students' industry insights and learning opportunities.	Implemented user registration features for both tutors and students, ensuring a personalized experience. ", 
     stack: [ "React.js" , "JavaScript" , "HTML/CSS" , "jQuery" , "MySQL"  ]
 }
 
 const bankPrj = {
-    name: "Banking System Flow Website",
+    name: "Banking Service Flow",
     date: "AUG 2020",
-    content: "Designed a website to demonstrate banking processes, with a strong emphasis on user-friendly design for transactions such as deposits and withdrawals. Enabled users to view their transaction history in real time, complete with status details, by developing a connection to the database that reflects changes as transactions occur.", 
+    content: "­Website to demonstrate banking processes, with a strong emphasis on user-friendly design for transactions such as deposits and withdrawals. Enabled users to view their transaction history in real time, complete with status details, by developing a connection to the database that reflects changes as transactions occur.", 
     stack: [ "JavaScript" , "HTML/CSS" , "PHP" , "phpMyAdmin" , "MySQL"  ]
+}
+
+const eaF1Prj = {
+    name: "eaf1 (Everything About F1)",
+    date: "OCT 2024",
+    content: "An interactive F1 car exploration website designed to provide an in-depth look at F1 car parts, their specifications, and the rich history of the sport. Users can explore detailed descriptions of car components, view specifications of various F1 cars, and delve into the Hall of Fame to learn about iconic drivers and historic achievements.", 
+    stack: [ "Next.js" , "Tailwind" , "Vercel"  ]
 }
 
 const workexp = [
@@ -99,7 +106,7 @@ const workexp = [
 ]
 
 const projects = [
-    // tutorPrj,
+    eaF1Prj,
     tutorPrj,
     airportPrj,
     bankPrj
