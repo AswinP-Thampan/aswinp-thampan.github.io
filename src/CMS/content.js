@@ -38,7 +38,7 @@ const freelancingContent = {
     endDate: 'FEB 2025',
     company: 'Self Employed',
     role: 'Web and Logo Designer',
-    // team: '',
+    team: '2 Projects',
     stack: [
         {name: "Next.js"},
         {name: "Tailwind"},
@@ -51,7 +51,7 @@ const freelancingContent = {
         {name: "Procreate"},
     ],
     location: "Remote",
-    content: "Designed a unique logo for a marble company, capturing its brand identity with a sleek and modern aesthetic. Developed a fully responsive website for a pizza shop, enhancing online presence with an intuitive UI and seamless navigation. Managed both projects while collaborating with clients to refine concepts, meet design expectations, and ensure timely delivery."
+    content: "Designed a unique logo for a marble company, capturing its brand identity with a sleek and modern aesthetic. And developed a fully responsive website for a pizza shop, enhancing online presence with an intuitive UI and seamless navigation. Managed both projects while collaborating with clients to refine concepts, meet design expectations, and ensure timely delivery."
 };
 
 
