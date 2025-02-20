@@ -32,6 +32,28 @@ const logos = [
     /* 14 */ { name: 'jQuery', logo: jQuery }
 ]
 
+const freelancingContent = {
+    name: 'Freelancer',
+    startDate: 'NOV 2024',
+    endDate: 'FEB 2025',
+    company: 'Self Employed',
+    role: 'Web and Logo Designer',
+    // team: '',
+    stack: [
+        logos[0],
+        logos[7],
+        logos[4],
+        logos[3],
+        {name: "Express"},
+        logos[1],
+        {name: "Illustrator"},
+        {name: "Procreate"},
+    ],
+    location: "Remote",
+    content: "Designed a unique logo for a marble company, capturing its brand identity with a sleek and modern aesthetic. Developed a fully responsive website for a pizza shop, enhancing online presence with an intuitive UI and seamless navigation. Managed both projects while collaborating with clients to refine concepts, meet design expectations, and ensure timely delivery."
+};
+
+
 const paymentPlatformContent = {
     name: 'Payment Portal for Merchant',
     startDate: 'APR 2023',
