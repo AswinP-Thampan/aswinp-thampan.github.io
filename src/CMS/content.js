@@ -40,12 +40,13 @@ const freelancingContent = {
     role: 'Web and Logo Designer',
     // team: '',
     stack: [
-        logos[0],
+        {name: "Next.js"},
+        {name: "Tailwind"},
+        {name: "Vercel"},
         logos[7],
         logos[4],
-        logos[3],
-        {name: "Express"},
         logos[1],
+        logos[11],
         {name: "Illustrator"},
         {name: "Procreate"},
     ],
@@ -124,6 +125,7 @@ const eaF1Prj = {
 }
 
 const workexp = [
+    freelancingContent,
     paymentPlatformContent,
     serverManagementContent
 ]

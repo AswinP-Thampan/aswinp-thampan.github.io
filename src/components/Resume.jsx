@@ -85,7 +85,7 @@ const WorKExpCards = ({ work }) => {
         <div className="cards">
             <div>
                 <div style={{ display: 'flex', fontSize: '14px', color: "#8c8c8c" }}>{work.startDate} - {work.endDate} </div>
-                <div style={{ display: 'flex', fontSize: '20px' }}>{work.role} · {work.company} ({work.team})</div>
+                <div style={{ display: 'flex', fontSize: '20px' }}>{work.role} · {work.company} {work.team ? `(${work.team})` : ''}</div>
                 <div style={{ display: 'flex', fontSize: '18px', color: "#8c8c8c" }}>{work.location} </div>
                 <hr style={{ marginLeft: "0px", opacity: '0.5' }} />
             </div>
