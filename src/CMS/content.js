@@ -34,7 +34,7 @@ const logos = [
 
 const freelancingContent = {
     name: 'Freelancer',
-    startDate: 'NOV 2024',
+    startDate: 'OCT 2024',
     endDate: 'FEB 2025',
     company: 'Self Employed',
     role: 'Web and Logo Designer',
