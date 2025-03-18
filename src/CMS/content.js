@@ -64,6 +64,7 @@ const paymentPlatformContent = {
     team: 'CVS Dept.',
     stack: [
         logos[0],
+        {name: "React Native"},
         logos[13],
         logos[7],
         logos[4],

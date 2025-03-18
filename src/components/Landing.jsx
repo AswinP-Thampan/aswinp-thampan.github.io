@@ -42,7 +42,7 @@ const Landing2 = () => {
                 <div className="conatiner">
                     <div>
                         <div className="about">
-                            Hey! I'm a Web Developer who loves coding things from scratch and
+                            Hey! I'm a Web & App Developer who loves coding things from scratch and
                             bringing creative ideas to life in the browser. Whether it's
                             building smooth, interactive websites or experimenting with new
                             tech, I enjoy diving into projects and seeing them come to life.
